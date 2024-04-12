@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to left, lightblue, lightgreen);
+}
+body > h1 {
+  display: flex;
+  justify-content: center;
+}
+body > section {
+  padding: 20px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  justify-content: center;
+}
+body > section > .creatNewNotes {
+  border: 1px solid black;
+  background-color: #56dd78;
+  max-width: 320px;
+  height: 200px;
+}
+body > section > .creatNewNotes > .btn {
+  display: flex;
+  justify-content: center;
+  border-color: rgba(255, 255, 255, 0.37);
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 15px;
+  font-size: 70px;
+  width: auto;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
